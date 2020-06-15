@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8. formulaire</title>
+
+</head>
+
+
+<body>
+    <form action="destination formulaire.php" method="post" id="formulaire de contact">
+        <label for="nom">Nom:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="nom" placeholder="nom">
+        <br>
+        <br>
+        <label for="prénom">Prénom:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="prénom"placeholder="prénom">
+<br>
+<br>
+        <label for="number">Téléphone:</label>
+        <input type="number" name="téléphone"placeholder="téléphone">
+<br>
+<br>
+        <label>Nom :</label><input type="text" /><br />
+        <label>Prénom :</label><input type="text" /><br />
+        <label>Âge :</label>
+        <select id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+<br>
+<br>
+                <label for="metiers2">Sélectionnez votre métier</label>
+        <input type="text" name="metiers1" id="metiers2" list="metiers3">
+        <datalist id="metiers3">
+            <option value="webmaster">
+            <option value="développeur">
+            <option value="administrateur B.D.D.">
+            <option value="webdesigner">
+        </datalist><br>
+<br>
+
+        <label for="checkbox">bleue:</label>
+        <input type="checkbox" name="couleur 1" value="bleue">
+        <label for="checkbox">jaune:</label>
+        <input type="checkbox" name="couleur 2" value="jaune">
+        <label for="checkbox">vert:</label>
+        <input type="checkbox" name="couleur 3" value="vert">
+<br>
+<br>
+        <input type="radio" name="couleur" value="Bleu"> Bleu 
+        <input type="radio" name="couleur" value="Rouge"> Rouge 
+        <input type="radio" name="couleur" value="Vert" checked> Vert
+
+<br>
+<br>
+        <input type="submit" value="Envoyer"> 
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8. formulaire</title>
+
+</head>
+
+
+<body>
+        
+<form action="http://bienvu.net/script.php"method="get" id="formulaire de contact"> 
+
+    <fieldset>
+        <legend>Vos Coordonnées</legend>
+        <label for="votre Nom">Nom*:</label>
+        <input type="text" name="votre Nom" required><br>
+
+        <label for="votre Prénom">Votre Prénom*:</label>
+        <input type="text" name="Votre Prénom">
+        <br>
+        <br>
+        <label for="Sexe">Sexe*:</label>
+        <br>
+        <br>
+        <input type="radio" name="Sexe" value="Masculin"required> Masculin
+        <input type="radio" name="Sexe" value="Féminin"required> Féminin
+       </fieldset>
+       <br>
+       <label for="date de naissance">Date de Naissance*</label>
+       <input type="date" name="date de naissance"required>
+       <br>
+       <label for="Code Postal">Code Postal</label>
+       <input type="text" name="Code Postal">
+       <br>
+       <label for="Adresse">Adresse</label>
+       <input type="text" name="Adresse">
+       <br>
+       <label for="Ville">Ville</label>
+       <input type="text" name="Ville">
+       <br>
+       <label for="Email">Email*</label>
+       <input type="text" name="Email">
+
+
+       <fieldset>
+        <legend>Votre demande</legend>
+        <label>sujet:</label>
+        <select name="question"required> 
+            <option>Mes commandes </option>
+            <option> Question sur un produit</option>
+            <option> Réclamation</option>
+            <option>Autres</option>
+        </select>   
+        <br>
+        <label for="votre question">Votre Question</label>
+        <textarea name="Votre question" rows="1" cols="15"></textarea>
+        <br>
+        <input type="checkbox" name="utilisation données">J'accepte le traitement de ce formulaire.>
+
+        <input type="submit" value="Envoyer"> 
+    </form>
+
+</body>
+</html>
